@@ -8,25 +8,14 @@ import {
   TextField,
   Avatar,
   FormGroup,
-  styled,
-  Paper,
   Button,
   InputAdornment,
   Typography,
 } from "@mui/material";
 
 import { Illustration, logoHitHub } from "./../../assets/images";
-console.log(Illustration);
-// import logo from "./../../assets/logo-git-hub.svg";
-// import * as image from "./../../assets/images/";
-// import useStyles from "../../assets/styles.js";
-// import { Box } from "@material-ui/system";
 
-const Item = styled(Paper)(({ theme }) => ({
-  ...theme.typography.body2,
-  padding: theme.spacing(1),
-  color: theme.palette.text.secondary,
-}));
+// const Item = styled(Paper)(({ theme }) => ({}));
 
 const Cadastro = (props) => {
   return (
@@ -42,7 +31,7 @@ const Cadastro = (props) => {
           className={styles.register}
           sx={{ background: "#ffffff" }}
         >
-          <Item className={styles.item}>
+          <Grid className={styles.item}>
             <Grid item xl={10} className={styles.wrapForm}>
               <img src={logoHitHub} alt="Logo" className={styles.logo} />
               <Typography variant="h4">Buscar usuário</Typography>
@@ -78,7 +67,7 @@ const Cadastro = (props) => {
                 Termos de <span>política</span> e <span>privacidade</span>
               </Grid>
             </Grid>
-          </Item>
+          </Grid>
         </Grid>
         <Grid
           item

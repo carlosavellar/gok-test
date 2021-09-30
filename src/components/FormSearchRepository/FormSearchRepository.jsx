@@ -1,15 +1,7 @@
 /** @format */
 
 // /** @format */
-import {
-  CardHeader,
-  InputAdornment,
-  Avatar,
-  TextField,
-  FormGroup,
-  FormControl,
-  Grid,
-} from "@mui/material";
+import { InputAdornment, FormGroup, Grid, TextField } from "@mui/material";
 import style from "./FormSearchRepository.module.scss";
 import SearchIcon from "@mui/icons-material/Search";
 import FilterListIcon from "@mui/icons-material/FilterList";
@@ -28,7 +20,7 @@ const Item = styled(Paper)(({ theme }) => ({
 
 const FormSearchRepository = (props) => {
   return (
-    <Box sx={{ flexGrow: 1 }}>
+    <Box sx={{ flexGrow: 0 }}>
       <FormGroup>
         <Grid container spacing={2} columns={16}>
           <Grid item xs={8}>

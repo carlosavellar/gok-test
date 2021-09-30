@@ -9,22 +9,22 @@ body {
 }
 
 .button {
-  color: $whiteBg;
-  border-radius: 30px;
-  background-color: $bgBlack;
-  padding: 1rem;
+  color: $whiteBg !important;
+  border-radius: 30px !important;
+  background-color: $bgBlack !important;
+  padding: 1rem !important;
   &:hover {
-    background-color: $greyBg-3;
+    background-color: $greyBg-3 !important;
   }
 }
 
 .avatar {
-  width: 1.4rem;
-  height: 1.4rem;
+  width: 1.4rem !important;
+  height: 1.4rem !important;
 }
 
 .inputText {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.5rem !important;
 }
 
 h4 {
@@ -58,7 +58,7 @@ h3 {
 }
 
 .borderBox {
-  border-radius: 5px;
+  border-radius: 5px !important;
 }
 
 .item {
