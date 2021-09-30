@@ -4,7 +4,7 @@
 
 Este teste aionda estra em desenvolvimento.
 
-Garto pela oportunidade, quero fazer parte.
+Grato pela oportunidade, quero fazer parte.
 
 ## Para rodar
 
