@@ -1,0 +1,23 @@
+/** @format */
+/** @format */
+@import "./../../assets/scss/colors.scss";
+
+@mixin radiusShadow {
+  border-radius: 8px !important;
+  box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.06) !important;
+}
+
+.textInput {
+  border-bottom: none !important;
+  @include radiusShadow;
+  background-color: $whiteBg !important;
+  border: none !important;
+  width: 100%;
+  border-color: #ffffff !important;
+}
+
+.css-1q6at85-MuiInputBase-root-MuiOutlinedInput-root {
+  border-color: #ffffff !important;
+  border: none !important;
+  background-color: $whiteBg !important;
+}
